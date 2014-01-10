@@ -13,6 +13,7 @@
 	     "Hungertotal" = 100,
 	     "Staminatotal" = 100
    },
+	"Character" : {},
 	"CharacterMovement" : {
     	"faceMovementDirection" : true
   },

@@ -16,8 +16,7 @@
 	"CharacterMovement" : {
     	"faceMovementDirection" : true
    },
-	"Character" : {
-  },
+	"Character" : {},
   "Animation" : {
 		"walkAnim" = "Oreons:BuilderWalk",
 		"idleAnim" = "Oreons:BuilderIdle",
