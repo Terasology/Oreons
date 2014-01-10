@@ -2,9 +2,9 @@
     "persisted" : true,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "OreoMinions:OreoBuilder",
-        "material" : "OreoMinions:OreonSkin",
-        "animation" : "OreoMinions:BuilderIdle",
+        "mesh" : "Oreons:OreoBuilder",
+        "material" : "Oreons:OreonSkin",
+        "animation" : "Oreons:BuilderIdle",
         "loop" : true
     },
      "Minion" : {
@@ -15,17 +15,19 @@
    },
 	"CharacterMovement" : {
     	"faceMovementDirection" : true
+   },
+	"Character" : {
   },
   "Animation" : {
-		"walkAnim" = "OreoMinions:BuilderWalk",
-		"idleAnim" = "OreoMinions:BuilderIdle",
-		"attackAnim" = "OreoMinions:BuilderThor",
-		"dieAnim" = "OreoMinions:BuilderDead",
-		"fadeInAnim" = "OreoMinions:BuilderIdle",
-		"fadeOutAnim" = "OreoMinions:BuilderIdle",
-		"workAnim" = "OreoMinions:BuilderBuild",
-		"terraformAnim" = "OreoMinions:BuilderShow",
-		"randomAnim" : ["OreoMinions:BuilderWave", "OreoMinions:BuilderShow"]
+		"walkAnim" = "Oreons:BuilderWalk",
+		"idleAnim" = "Oreons:BuilderIdle",
+		"attackAnim" = "Oreons:BuilderThor",
+		"dieAnim" = "Oreons:BuilderDead",
+		"fadeInAnim" = "Oreons:BuilderIdle",
+		"fadeOutAnim" = "Oreons:BuilderIdle",
+		"workAnim" = "Oreons:BuilderBuild",
+		"terraformAnim" = "Oreons:BuilderShow",
+		"randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
 	},
   "SimpleMinionAI" : {},
   "CharacterSound" : {

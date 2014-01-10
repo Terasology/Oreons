@@ -2,9 +2,9 @@
     "persisted" : true,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "OreoMinions:OreoGuard",
-        "material" : "OreoMinions:OreonSkin",
-        "animation" : "OreoMinions:GuardIdle",
+        "mesh" : "Oreons:OreoGuard",
+        "material" : "Oreons:OreonSkin",
+        "animation" : "Oreons:GuardIdle",
         "loop" : true
     },
      "Minion" : {
@@ -17,15 +17,15 @@
     	"faceMovementDirection" : true
   },
   "Animation" : {
-		"walkAnim" = "OreoMinions:GuardWalk",
-		"idleAnim" = "OreoMinions:GuardIdleSkygaze",
-		"attackAnim" = "OreoMinions:GuardAttack",
-		"dieAnim" = "OreoMinions:GuardAfraidNonloop",
-		"fadeInAnim" = "OreoMinions:GuardIdle",
-		"fadeOutAnim" = "OreoMinions:GuardIdle",
-		"workAnim" = "OreoMinions:GuardWave",
-		"terraformAnim" = "OreoMinions:GuardShow",
-		"randomAnim" : ["OreoMinions:GuardWave", "OreoMinions:GuardShow"]
+		"walkAnim" = "Oreons:GuardWalk",
+		"idleAnim" = "Oreons:GuardIdleSkygaze",
+		"attackAnim" = "Oreons:GuardAttack",
+		"dieAnim" = "Oreons:GuardAfraidNonloop",
+		"fadeInAnim" = "Oreons:GuardIdle",
+		"fadeOutAnim" = "Oreons:GuardIdle",
+		"workAnim" = "Oreons:GuardWave",
+		"terraformAnim" = "Oreons:GuardShow",
+		"randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
 	},
   "SimpleMinionAI" : {},
   "CharacterSound" : {
