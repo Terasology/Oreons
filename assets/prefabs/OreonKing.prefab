@@ -2,7 +2,7 @@
     "persisted" : false,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "Oreons:OreoKing",
+        "mesh" : "Oreons:OreonKing",
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:KingWalk",
         "loop" : true

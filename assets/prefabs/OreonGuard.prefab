@@ -2,36 +2,36 @@
     "persisted" : true,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "Oreons:OreoBuilder",
+        "mesh" : "Oreons:OreonGuard",
         "material" : "Oreons:OreonSkin",
-        "animation" : "Oreons:BuilderIdle",
+        "animation" : "Oreons:GuardIdle",
         "loop" : true
     },
      "Minion" : {
 	     "icon" = "minionskull",
-	     "Healthtotal" = 300,
+	     "Healthtotal" = 800,
 	     "Hungertotal" = 100,
 	     "Staminatotal" = 100
    },
+	"Character" : {},
 	"CharacterMovement" : {
     	"faceMovementDirection" : true
-   },
-	"Character" : {},
+  },
   "Animation" : {
-		"walkAnim" = "Oreons:BuilderWalk",
-		"idleAnim" = "Oreons:BuilderIdle",
-		"attackAnim" = "Oreons:BuilderThor",
-		"dieAnim" = "Oreons:BuilderDead",
-		"fadeInAnim" = "Oreons:BuilderIdle",
-		"fadeOutAnim" = "Oreons:BuilderIdle",
-		"workAnim" = "Oreons:BuilderBuild",
-		"terraformAnim" = "Oreons:BuilderShow",
-		"randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
+		"walkAnim" = "Oreons:GuardWalk",
+		"idleAnim" = "Oreons:GuardIdleSkygaze",
+		"attackAnim" = "Oreons:GuardAttack",
+		"dieAnim" = "Oreons:GuardAfraidNonloop",
+		"fadeInAnim" = "Oreons:GuardIdle",
+		"fadeOutAnim" = "Oreons:GuardIdle",
+		"workAnim" = "Oreons:GuardWave",
+		"terraformAnim" = "Oreons:GuardShow",
+		"randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
 	},
   "SimpleMinionAI" : {},
   "CharacterSound" : {
-	    "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
-	    "footstepVolume" : 0.7
+    "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
+    "footstepVolume" : 0.7
   },
   "Inventory": {
       "itemSlots": [
