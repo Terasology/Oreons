@@ -2,7 +2,7 @@
     "persisted" : true,
     "location" : {},
     "skeletalmesh" : {
-        "mesh" : "Oreons:OreoBuilder",
+        "mesh" : "Oreons:OreonBuilder",
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:BuilderIdle",
         "loop" : true
