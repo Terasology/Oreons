@@ -7,54 +7,23 @@
         "animation" : "Oreons:GuardIdle",
         "loop" : true
     },
-     "Minion" : {
-	     "icon" = "minionskull",
-	     "Healthtotal" = 800,
-	     "Hungertotal" = 100,
-	     "Staminatotal" = 100
-   },
-	"Character" : {},
-	"CharacterMovement" : {
-    	"faceMovementDirection" : true
-  },
-  "Animation" : {
-		"walkAnim" = "Oreons:GuardWalk",
-		"idleAnim" = "Oreons:GuardIdleSkygaze",
-		"attackAnim" = "Oreons:GuardAttack",
-		"dieAnim" = "Oreons:GuardAfraidNonloop",
-		"fadeInAnim" = "Oreons:GuardIdle",
-		"fadeOutAnim" = "Oreons:GuardIdle",
-		"workAnim" = "Oreons:GuardWave",
-		"terraformAnim" = "Oreons:GuardShow",
-		"randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
-	},
-  "SimpleMinionAI" : {},
-  "CharacterSound" : {
-    "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
-    "footstepVolume" : 0.7
-  },
-  "Inventory": {
-      "itemSlots": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+    "Animation" : {
+        "walkAnim" = "Oreons:GuardWalk",
+        "idleAnim" = "Oreons:GuardIdleSkygaze",
+        "attackAnim" = "Oreons:GuardAttack",
+        "dieAnim" = "Oreons:GuardAfraidNonloop",
+        "fadeInAnim" = "Oreons:GuardIdle",
+        "fadeOutAnim" = "Oreons:GuardIdle",
+        "workAnim" = "Oreons:GuardWave",
+        "terraformAnim" = "Oreons:GuardShow",
+        "randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
     },
-    "AccessInventoryAction": {},
-    "Spawnable" : {
-      "type" : "oreon"
+    "Character" : {},
+    "CharacterMovement" : {
+        "faceMovementDirection" : true
+    },
+    "CharacterSound" : {
+        "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
+        "footstepVolume" : 0.7
     }
 }

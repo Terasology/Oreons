@@ -7,54 +7,23 @@
         "animation" : "Oreons:BuilderIdle",
         "loop" : true
     },
-     "Minion" : {
-	     "icon" = "minionskull",
-	     "Healthtotal" = 300,
-	     "Hungertotal" = 100,
-	     "Staminatotal" = 100
-   },
-	"CharacterMovement" : {
-    	"faceMovementDirection" : true
-   },
-	"Character" : {},
-  "Animation" : {
-		"walkAnim" = "Oreons:BuilderWalk",
-		"idleAnim" = "Oreons:BuilderIdle",
-		"attackAnim" = "Oreons:BuilderThor",
-		"dieAnim" = "Oreons:BuilderDead",
-		"fadeInAnim" = "Oreons:BuilderIdle",
-		"fadeOutAnim" = "Oreons:BuilderIdle",
-		"workAnim" = "Oreons:BuilderBuild",
-		"terraformAnim" = "Oreons:BuilderShow",
-		"randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
-	},
-  "SimpleMinionAI" : {},
-  "CharacterSound" : {
-	    "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
-	    "footstepVolume" : 0.7
-  },
-  "Inventory": {
-      "itemSlots": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+    "Animation" : {
+        "walkAnim" = "Oreons:BuilderWalk",
+        "idleAnim" = "Oreons:BuilderIdle",
+        "attackAnim" = "Oreons:BuilderThor",
+        "dieAnim" = "Oreons:BuilderDead",
+        "fadeInAnim" = "Oreons:BuilderIdle",
+        "fadeOutAnim" = "Oreons:BuilderIdle",
+        "workAnim" = "Oreons:BuilderBuild",
+        "terraformAnim" = "Oreons:BuilderShow",
+        "randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
     },
-    "AccessInventoryAction": {},
-    "Spawnable" : {
-      "type" : "oreon"
+    "Character" : {},
+    "CharacterMovement" : {
+        "faceMovementDirection" : true
+    },
+    "CharacterSound" : {
+        "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
+        "footstepVolume" : 0.7
     }
 }

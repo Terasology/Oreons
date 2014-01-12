@@ -6,20 +6,24 @@
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:KingWalk",
         "loop" : true
-     },
-     "Animation" : {
-		"walkAnim" = "Oreons:KingWalk",
-		"idleAnim" = "Oreons:KingWalk",
-		"attackAnim" = "Oreons:KingWalk",
-		"dieAnim" = "Oreons:KingWalk",
-		"fadeInAnim" = "Oreons:KingWalk",
-		"fadeOutAnim" = "Oreons:KingWalk",
-		"workAnim" = "Oreons:KingWalk",
-		"terraformAnim" = "Oreons:KingWalk",
-		"randomAnim" : ["Oreons:KingWalk", "Oreons:KingWalk"]
     },
-	"Character" : {},
-	"CharacterMovement" : {
-    	"faceMovementDirection" : true
+    "Animation" : {
+        "walkAnim" = "Oreons:KingWalk",
+        "idleAnim" = "Oreons:KingWalk",
+        "attackAnim" = "Oreons:KingWalk",
+        "dieAnim" = "Oreons:KingWalk",
+        "fadeInAnim" = "Oreons:KingWalk",
+        "fadeOutAnim" = "Oreons:KingWalk",
+        "workAnim" = "Oreons:KingWalk",
+        "terraformAnim" = "Oreons:KingWalk",
+        "randomAnim" : ["Oreons:KingWalk", "Oreons:KingWalk"]
+    },
+    "Character" : {},
+    "CharacterMovement" : {
+        "faceMovementDirection" : true
+    },
+    "CharacterSound" : {
+        "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
+        "footstepVolume" : 0.7
     }
 }
