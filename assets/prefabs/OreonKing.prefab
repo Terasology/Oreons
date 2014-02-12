@@ -1,6 +1,9 @@
 {
     "persisted" : false,
     "location" : {},
+    "DisplayName" : {
+        "name" : "Oreon King"
+    },
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonKing",
         "material" : "Oreons:OreonSkin",

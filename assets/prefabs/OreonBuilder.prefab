@@ -1,6 +1,15 @@
 {
     "persisted" : true,
     "location" : {},
+    "DisplayName" : {
+        "name" : "Oreon Builder"
+    },
+    "Item" : {
+        "icon" : "Oreons:icons32.oreonbuilder",
+        "usage" : "NONE",
+        "consumedOnUse" : false,
+        "renderWithIcon" : false
+    },
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonBuilder",
         "material" : "Oreons:OreonSkin",

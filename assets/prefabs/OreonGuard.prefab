@@ -1,6 +1,15 @@
 {
     "persisted" : true,
     "location" : {},
+    "DisplayName" : {
+        "name" : "Oreon Guard"
+    },
+    "Item" : {
+        "icon" : "Oreons:icons32.oreonguard",
+        "usage" : "NONE",
+        "consumedOnUse" : false,
+        "renderWithIcon" : false
+    },
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonGuard",
         "material" : "Oreons:OreonSkin",
