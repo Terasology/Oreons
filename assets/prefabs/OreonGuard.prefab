@@ -5,7 +5,7 @@
         "name" : "Oreon Guard"
     },
     "Item" : {
-        "icon" : "Oreons:icons32.oreonguard",
+        "icon": "Oreons:icons32#oreonguard",
         "usage" : "NONE",
         "consumedOnUse" : false,
         "renderWithIcon" : false
@@ -17,14 +17,14 @@
         "loop" : true
     },
     "Animation" : {
-        "walkAnim" = "Oreons:GuardWalk",
-        "idleAnim" = "Oreons:GuardIdleSkygaze",
-        "attackAnim" = "Oreons:GuardAttack",
-        "dieAnim" = "Oreons:GuardAfraidNonloop",
-        "fadeInAnim" = "Oreons:GuardIdle",
-        "fadeOutAnim" = "Oreons:GuardIdle",
-        "workAnim" = "Oreons:GuardWave",
-        "terraformAnim" = "Oreons:GuardShow",
+        "walkAnim": "Oreons:GuardWalk",
+        "idleAnim": "Oreons:GuardIdleSkygaze",
+        "attackAnim": "Oreons:GuardAttack",
+        "dieAnim": "Oreons:GuardAfraidNonloop",
+        "fadeInAnim": "Oreons:GuardIdle",
+        "fadeOutAnim": "Oreons:GuardIdle",
+        "workAnim": "Oreons:GuardWave",
+        "terraformAnim": "Oreons:GuardShow",
         "randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
     },
     "Character" : {},

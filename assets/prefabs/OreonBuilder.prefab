@@ -5,7 +5,7 @@
         "name" : "Oreon Builder"
     },
     "Item" : {
-        "icon" : "Oreons:icons32.oreonbuilder",
+        "icon": "Oreons:icons32#oreonbuilder",
         "usage" : "NONE",
         "consumedOnUse" : false,
         "renderWithIcon" : false
@@ -17,14 +17,14 @@
         "loop" : true
     },
     "Animation" : {
-        "walkAnim" = "Oreons:BuilderWalk",
-        "idleAnim" = "Oreons:BuilderIdle",
-        "attackAnim" = "Oreons:BuilderThor",
-        "dieAnim" = "Oreons:BuilderDead",
-        "fadeInAnim" = "Oreons:BuilderIdle",
-        "fadeOutAnim" = "Oreons:BuilderIdle",
-        "workAnim" = "Oreons:BuilderBuild",
-        "terraformAnim" = "Oreons:BuilderShow",
+        "walkAnim": "Oreons:BuilderWalk",
+        "idleAnim": "Oreons:BuilderIdle",
+        "attackAnim": "Oreons:BuilderThor",
+        "dieAnim": "Oreons:BuilderDead",
+        "fadeInAnim": "Oreons:BuilderIdle",
+        "fadeOutAnim": "Oreons:BuilderIdle",
+        "workAnim": "Oreons:BuilderBuild",
+        "terraformAnim": "Oreons:BuilderShow",
         "randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
     },
     "Character" : {},
