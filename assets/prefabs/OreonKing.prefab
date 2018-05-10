@@ -32,5 +32,8 @@
     "Spawnable" : {
         "tags" : ["Oreon", "King", "OreonKing"],
         "itemToConsume" : "core:dirt"
+    },
+    "OreonSpawn" : {
+        "itemToConsume" : "Core:Dirt"
     }
 }

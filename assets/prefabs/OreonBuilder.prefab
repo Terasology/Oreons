@@ -36,5 +36,8 @@
     },
     "Spawnable" : {
         "tags" : ["Oreon", "Builder", "OreonBuilder"]
+    },
+    "OreonSpawn" : {
+         "itemToConsume" : "Core:Dirt"
     }
 }
