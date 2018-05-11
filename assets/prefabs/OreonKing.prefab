@@ -34,6 +34,7 @@
         "itemToConsume" : "core:dirt"
     },
     "OreonSpawn" : {
-        "itemToConsume" : "Core:Dirt"
+         "itemToConsume" : ["Core:Dirt", "Core:Sand"],
+         "numberToConsume" : [2, 2]
     }
 }

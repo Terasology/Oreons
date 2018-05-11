@@ -38,6 +38,7 @@
         "tags" : ["Oreon", "Guard", "OreonGuard"]
     },
     "OreonSpawn" : {
-         "itemToConsume" : "Core:Dirt"
+         "itemToConsume" : ["Core:Dirt", "Core:Sand"],
+         "numberToConsume" : [3, 2]
     }
 }
