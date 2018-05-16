@@ -4,31 +4,47 @@
     "DisplayName" : {
         "name" : "Oreon King"
     },
+    "AliveCharacter" : {},
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonKing",
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:KingWalk",
+        "heightOffset" : -0.5,
         "loop" : true
     },
-    "Animation" : {
-        "walkAnim": "Oreons:KingWalk",
-        "idleAnim": "Oreons:KingWalk",
-        "attackAnim": "Oreons:KingWalk",
-        "dieAnim": "Oreons:KingWalk",
-        "fadeInAnim": "Oreons:KingWalk",
-        "fadeOutAnim": "Oreons:KingWalk",
-        "workAnim": "Oreons:KingWalk",
-        "terraformAnim": "Oreons:KingWalk",
-        "randomAnim" : ["Oreons:KingWalk", "Oreons:KingWalk"]
+    "Behavior" : {
+        "tree" : "Oreons:OreonKing"
+    },
+    "Stand" : {
+        "animationPool" : [
+            "KingWalk",
+            "KingWalk",
+            "KingWalk"
+        ]
+    },
+    "Walk" : {
+        "animationPool" : ["KingWalk"]
+    },
+    "Die" : {
+        "animationPool" : ["KingWalk"]
     },
     "Character" : {},
     "CharacterMovement" : {
+        "groundFriction" : 16,
+        "speedMultiplier" : 0.3,
+        "distanceBetweenFootsteps" : 0.2,
+        "distanceBetweenSwimStrokes" : 2.5,
+        "height" : 1.6,
+        "radius" : 0.3,
+        "jumpSpeed" : 12,
         "faceMovementDirection" : true
     },
+    "MinionMove" : {},
     "CharacterSound" : {
         "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
         "footstepVolume" : 0.7
     },
+    "NPCMovement" : {},
     "Spawnable" : {
         "tags" : ["Oreon", "King", "OreonKing"],
         "itemToConsume" : "core:dirt"

@@ -4,6 +4,7 @@
     "DisplayName" : {
         "name" : "Oreon Builder"
     },
+    "AliveCharacter" : {},
     "Item" : {
         "icon": "Oreons:icons32#oreonbuilder",
         "usage" : "NONE",
@@ -13,27 +14,45 @@
         "mesh" : "Oreons:OreonBuilder",
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:BuilderIdle",
+        "heightOffset" : -0.5,
         "loop" : true
     },
-    "Animation" : {
-        "walkAnim": "Oreons:BuilderWalk",
-        "idleAnim": "Oreons:BuilderIdle",
-        "attackAnim": "Oreons:BuilderThor",
-        "dieAnim": "Oreons:BuilderDead",
-        "fadeInAnim": "Oreons:BuilderIdle",
-        "fadeOutAnim": "Oreons:BuilderIdle",
-        "workAnim": "Oreons:BuilderBuild",
-        "terraformAnim": "Oreons:BuilderShow",
-        "randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
+    "FindNearbyPlayers" : {
+        "searchRadius" : 8
+    },
+    "Behavior" : {
+        "tree" : "Oreons:OreonBuilder"
+    },
+    "Stand" : {
+        "animationPool" : [
+            "BuilderIdle",
+            "BuilderShow",
+            "BuilderWave"
+        ]
+    },
+    "Walk" : {
+        "animationPool" : ["BuilderWalk"]
+    },
+    "Die" : {
+        "animationPool" : ["BuilderDead"]
     },
     "Character" : {},
     "CharacterMovement" : {
+        "groundFriction" : 16,
+        "speedMultiplier" : 0.3,
+        "distanceBetweenFootsteps" : 0.2,
+        "distanceBetweenSwimStrokes" : 2.5,
+        "height" : 1.6,
+        "radius" : 0.3,
+        "jumpSpeed" : 12,
         "faceMovementDirection" : true
     },
+    "MinionMove" : {},
     "CharacterSound" : {
         "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
         "footstepVolume" : 0.7
     },
+    "NPCMovement" : {},
     "Spawnable" : {
         "tags" : ["Oreon", "Builder", "OreonBuilder"]
     },

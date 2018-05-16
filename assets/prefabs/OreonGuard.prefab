@@ -4,6 +4,7 @@
     "DisplayName" : {
         "name" : "Oreon Guard"
     },
+    "AliveCharacter" : {},
     "Item" : {
         "icon": "Oreons:icons32#oreonguard",
         "usage" : "NONE",
@@ -13,27 +14,46 @@
         "mesh" : "Oreons:OreonGuard",
         "material" : "Oreons:OreonSkin",
         "animation" : "Oreons:GuardIdle",
+        "heightOffset" : -0.5,
         "loop" : true
     },
-    "Animation" : {
-        "walkAnim": "Oreons:GuardWalk",
-        "idleAnim": "Oreons:GuardIdleSkygaze",
-        "attackAnim": "Oreons:GuardAttack",
-        "dieAnim": "Oreons:GuardAfraidNonloop",
-        "fadeInAnim": "Oreons:GuardIdle",
-        "fadeOutAnim": "Oreons:GuardIdle",
-        "workAnim": "Oreons:GuardWave",
-        "terraformAnim": "Oreons:GuardShow",
-        "randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
+    "Behavior" : {
+        "tree" : "Oreons:OreonGuard"
+    },
+    "Stand" : {
+        "animationPool" : [
+            "GuardIdleSkygaze",
+            "GuardIdleSkygaze",
+            "GuardIdleSleep",
+            "GuardIdleWakeup",
+            "GuardIdleTiredNonLoop",
+            "GuardShow",
+            "GuardWave"
+        ]
+    },
+    "Walk" : {
+        "animationPool" : ["GuardWalk"]
+    },
+    "Die" : {
+        "animationPool" : ["GuardAfraidNonLoop"]
     },
     "Character" : {},
     "CharacterMovement" : {
+        "groundFriction" : 16,
+        "speedMultiplier" : 0.3,
+        "distanceBetweenFootsteps" : 0.2,
+        "distanceBetweenSwimStrokes" : 2.5,
+        "height" : 1.6,
+        "radius" : 0.3,
+        "jumpSpeed" : 12,
         "faceMovementDirection" : true
     },
+    "MinionMove" : {},
     "CharacterSound" : {
         "footstepSounds" : ["Slime1", "Slime2", "Slime3", "Slime4", "Slime5"],
         "footstepVolume" : 0.7
     },
+    "NPCMovement" : {},
     "Spawnable" : {
         "tags" : ["Oreon", "Guard", "OreonGuard"]
     },
