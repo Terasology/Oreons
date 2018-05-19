@@ -4,6 +4,11 @@
     "author" : "Maternal Mathes.Wenzel@googlemail.com",
     "displayName" : "Oreons",
     "description" : "Oreon Invasion for Terasology",
-    "dependencies" : [],
+    "dependencies" : [
+        {
+            "id" : "Behaviors",
+            "minVersion" : "0.2.0"
+        }
+    ],
     "isServerSideOnly" : false
 }

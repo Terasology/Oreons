@@ -1,0 +1,10 @@
+{
+    dynamic : [
+        {
+            lookup : {
+                tree : "Behaviors:critter"
+            }
+        }
+    ]
+}
+
