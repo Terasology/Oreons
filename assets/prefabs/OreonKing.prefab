@@ -31,12 +31,12 @@
     },
     "Spawnable" : {
         "tags" : ["Oreon", "King", "OreonKing"],
-        "itemToConsume" : "core:dirt"
+        "itemToConsume" : "CoreBlocks:Dirt"
     },
     "OreonSpawn" : {
          "itemsToConsume" : {
-             "BlockFamily[core:Dirt]" : [4],
-             "BlockFamily[core:Sand]" : [2]
+             "BlockFamily[CoreBlocks:Dirt]" : [4],
+             "BlockFamily[CoreBlocks:Sand]" : [2]
          }
     }
 }
