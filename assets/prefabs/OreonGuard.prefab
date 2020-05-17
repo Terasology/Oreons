@@ -39,8 +39,8 @@
     },
     "OreonSpawn" : {
          "itemsToConsume" : {
-             "BlockFamily[CoreBlocks:Dirt]" : [2],
-             "BlockFamily[CoreBlocks:Sand]" : [2]
+             "BlockFamily[CoreAssets:Dirt]" : [2],
+             "BlockFamily[CoreAssets:Sand]" : [2]
          }
     }
 }
