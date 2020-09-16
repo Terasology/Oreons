@@ -7,19 +7,19 @@
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonKing",
         "material" : "Oreons:OreonSkin",
-        "animation" : "Oreons:KingWalk",
+        "animation" : "Oreons:OreonKing#Idle",
         "loop" : true
     },
     "Animation" : {
-        "walkAnim": "Oreons:OreonKing#KingWalk",
-        "idleAnim": "Oreons:OreonKing#KingWalk",
-        "attackAnim": "Oreons:OreonKing#KingWalk",
-        "dieAnim": "Oreons:OreonKing#KingWalk",
-        "fadeInAnim": "Oreons:OreonKing#KingWalk",
-        "fadeOutAnim": "Oreons:OreonKing#KingWalk",
-        "workAnim": "Oreons:OreonKing#KingWalk",
-        "terraformAnim": "Oreons:OreonKing#KingWalk",
-        "randomAnim" : ["Oreons:OreonKing#KingWalk", "Oreons:OreonKing#KingWalk"]
+        "walkAnim": "Oreons:OreonKing#Walk",
+        "idleAnim": "Oreons:OreonKing#Walk",
+        "attackAnim": "Oreons:OreonKing#Walk",
+        "dieAnim": "Oreons:OreonKing#Walk",
+        "fadeInAnim": "Oreons:OreonKing#Walk",
+        "fadeOutAnim": "Oreons:OreonKing#Walk",
+        "workAnim": "Oreons:OreonKing#Walk",
+        "terraformAnim": "Oreons:OreonKing#Walk",
+        "randomAnim" : ["Oreons:OreonKing#Walk", "Oreons:OreonKing#Walk"]
     },
     "Character" : {},
     "CharacterMovement" : {
