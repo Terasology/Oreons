@@ -12,19 +12,19 @@
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonBuilder",
         "material" : "Oreons:OreonSkin",
-        "animation" : "Oreons:BuilderIdle",
+        "animation" : "Oreons:OreonBuilder#BuilderIdle",
         "loop" : true
     },
     "Animation" : {
-        "walkAnim": "Oreons:BuilderWalk",
-        "idleAnim": "Oreons:BuilderIdle",
-        "attackAnim": "Oreons:BuilderThor",
-        "dieAnim": "Oreons:BuilderDead",
-        "fadeInAnim": "Oreons:BuilderIdle",
-        "fadeOutAnim": "Oreons:BuilderIdle",
-        "workAnim": "Oreons:BuilderBuild",
-        "terraformAnim": "Oreons:BuilderShow",
-        "randomAnim" : ["Oreons:BuilderWave", "Oreons:BuilderShow"]
+        "walkAnim": "Oreons:OreonBuilder#BuilderWalk",
+        "idleAnim": "Oreons:OreonBuilder#BuilderIdle",
+        "attackAnim": "Oreons:OreonBuilder#BuilderThor",
+        "dieAnim": "Oreons:OreonBuilder#BuilderDead",
+        "fadeInAnim": "Oreons:OreonBuilder#BuilderIdle",
+        "fadeOutAnim": "Oreons:OreonBuilder#BuilderIdle",
+        "workAnim": "Oreons:OreonBuilder#BuilderBuild",
+        "terraformAnim": "Oreons:OreonBuilder#BuilderShow",
+        "randomAnim" : ["Oreons:OreonBuilder#BuilderWave", "Oreons:OreonBuilder#BuilderShow"]
     },
     "Character" : {},
     "CharacterMovement" : {

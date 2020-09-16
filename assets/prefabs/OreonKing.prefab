@@ -11,15 +11,15 @@
         "loop" : true
     },
     "Animation" : {
-        "walkAnim": "Oreons:KingWalk",
-        "idleAnim": "Oreons:KingWalk",
-        "attackAnim": "Oreons:KingWalk",
-        "dieAnim": "Oreons:KingWalk",
-        "fadeInAnim": "Oreons:KingWalk",
-        "fadeOutAnim": "Oreons:KingWalk",
-        "workAnim": "Oreons:KingWalk",
-        "terraformAnim": "Oreons:KingWalk",
-        "randomAnim" : ["Oreons:KingWalk", "Oreons:KingWalk"]
+        "walkAnim": "Oreons:OreonKing#KingWalk",
+        "idleAnim": "Oreons:OreonKing#KingWalk",
+        "attackAnim": "Oreons:OreonKing#KingWalk",
+        "dieAnim": "Oreons:OreonKing#KingWalk",
+        "fadeInAnim": "Oreons:OreonKing#KingWalk",
+        "fadeOutAnim": "Oreons:OreonKing#KingWalk",
+        "workAnim": "Oreons:OreonKing#KingWalk",
+        "terraformAnim": "Oreons:OreonKing#KingWalk",
+        "randomAnim" : ["Oreons:OreonKing#KingWalk", "Oreons:OreonKing#KingWalk"]
     },
     "Character" : {},
     "CharacterMovement" : {

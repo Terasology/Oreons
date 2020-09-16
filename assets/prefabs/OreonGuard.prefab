@@ -12,19 +12,19 @@
     "skeletalmesh" : {
         "mesh" : "Oreons:OreonGuard",
         "material" : "Oreons:OreonSkin",
-        "animation" : "Oreons:GuardIdle",
+        "animation" : "Oreons:OreonGuard#GuardIdle",
         "loop" : true
     },
     "Animation" : {
-        "walkAnim": "Oreons:GuardWalk",
-        "idleAnim": "Oreons:GuardIdleSkygaze",
-        "attackAnim": "Oreons:GuardAttack",
-        "dieAnim": "Oreons:GuardAfraidNonloop",
-        "fadeInAnim": "Oreons:GuardIdle",
-        "fadeOutAnim": "Oreons:GuardIdle",
-        "workAnim": "Oreons:GuardWave",
-        "terraformAnim": "Oreons:GuardShow",
-        "randomAnim" : ["Oreons:GuardWave", "Oreons:GuardShow"]
+        "walkAnim": "Oreons:OreonGuard#GuardWalk",
+        "idleAnim": "Oreons:OreonGuard#GuardIdleSkygaze",
+        "attackAnim": "Oreons:OreonGuard#GuardAttack",
+        "dieAnim": "Oreons:OreonGuard#GuardAfraidNonloop",
+        "fadeInAnim": "Oreons:OreonGuard#GuardIdle",
+        "fadeOutAnim": "Oreons:OreonGuard#GuardIdle",
+        "workAnim": "Oreons:OreonGuard#GuardWave",
+        "terraformAnim": "Oreons:OreonGuard#GuardShow",
+        "randomAnim" : ["Oreons:OreonGuard#GuardWave", "Oreons:OreonGuard#GuardShow"]
     },
     "Character" : {},
     "CharacterMovement" : {
