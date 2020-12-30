@@ -1,12 +1,15 @@
 {
-    "id": "Oreons",
-    "version": "1.0.0",
-    "author": "Maternal Mathes.Wenzel@googlemail.com",
-    "displayName": "Oreons",
-    "description": "Oreon Invasion for Terasology",
-    "dependencies": [
-        { "id": "CoreAssets", "minVersion": "2.0.1" }
-    ],
-    "isServerSideOnly": false,
-    "isAsset": true
+  "id": "Oreons",
+  "version": "1.1.0-SNAPSHOT",
+  "author": "Maternal Mathes.Wenzel@googlemail.com",
+  "displayName": "Oreons",
+  "description": "Oreon Invasion for Terasology",
+  "dependencies": [
+    {
+      "id": "CoreAssets",
+      "minVersion": "2.0.1"
+    }
+  ],
+  "isServerSideOnly": false,
+  "isAsset": true
 }
